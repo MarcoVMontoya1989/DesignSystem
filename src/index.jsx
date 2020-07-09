@@ -1,10 +1,6 @@
 import React, {useState} from 'react';
 import ReactDOM from 'react-dom';
-import {
-  PrimaryButton,
-  SecondaryButton,
-  TertiaryButton
-} from "./Components";
+import ModalSignUpComponent from "./Components/Modals/Modal.component";
 import {GlobalStyle, darkTheme, defaultTheme} from "./utils/HomeTheme";
 import {ThemeProvider} from "styled-components";
 
@@ -34,9 +30,10 @@ const App = () => {
           alignItems: "center",
           justifyContent: "space-around"
         }}>
-        <PrimaryButton modifiers={["small"]}>Hello World</PrimaryButton>
-        <SecondaryButton modifiers={["large"]}>Goodbye World</SecondaryButton>
-        <TertiaryButton>Hey</TertiaryButton>
+        {/*<PrimaryButton modifiers={["small"]}>Hello World</PrimaryButton>*/}
+        {/*<SecondaryButton modifiers={["large"]}>Goodbye World</SecondaryButton>*/}
+        {/*<TertiaryButton>Hey</TertiaryButton>*/}
+        <ModalSignUpComponent />
         <GlobalStyle />
       </div>
     </ThemeProvider>
