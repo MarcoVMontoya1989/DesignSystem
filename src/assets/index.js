@@ -1,5 +1,5 @@
 import SignUp from './illustrations/SignUp.svg';
-import CloseIcon from './Icons/close';
+import {CloseIcon} from './Icons/close';
 
 
 export const Illustrations = {

@@ -4,7 +4,7 @@ import {
   PrimaryButton,
   SecondaryButton,
   TertiaryButton
-} from "./Components/Buttons.styles";
+} from "./Components";
 import {GlobalStyle, darkTheme, defaultTheme} from "./utils/HomeTheme";
 import {ThemeProvider} from "styled-components";
 
